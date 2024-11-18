@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div class="flex w-screen h-screen bg-deepBlue">
+    <!-- main hero section  -->
+    <div class="flex w-screen h-screen bg-deepBlue flex-col">
       <header
-        class="h-[70px] mx-auto  flex place-items-center justify-evenly"
+        class="h-16 mx-auto  flex place-items-center justify-evenly p-8" 
       >
         <!-- razoerpay logo start -->
         <img src="./image/logo.svg" alt="Razorpay" class="h-8 fill-white" />
@@ -18,37 +19,37 @@
         <!-- -------------------nav section start------------------------- -->
         <ul class="flex text-white h-full relative cursor-pointer font-mullish mx-16">
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Payments</a>
+            <a href="#" class="group-hover:text-lightBlue300">Payments</a>
             <div
               class="bg-lightBlue h-1 w-full bottom-0 absolute opacity-0 group-hover:opacity-100 transition ease-in-out"
             ></div>
           </li>
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Banking</a>
+            <a href="#" class="group-hover:text-lightBlue300 transition ease-in-out">Banking</a>
             <div
               class="bg-lightBlue h-1 w-full bottom-0 absolute opacity-0 group-hover:opacity-100 transition ease-in-out"
             ></div>
           </li>
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Corporate Card</a>
+            <a href="#" class="group-hover:text-lightBlue300 transition ease-in-out">Corporate Card</a>
           </li>
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Payroll</a>
+            <a href="#" class="group-hover:text-lightBlue300 transition ease-in-out">Payroll</a>
           </li>
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Resource</a>
+            <a href="#" class="group-hover:text-lightBlue300 transition ease-in-out">Resource</a>
             <div
               class="bg-lightBlue h-1 w-full bottom-0 absolute opacity-0 group-hover:opacity-100 transition ease-in-out"
             ></div>
           </li>
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Support</a>
+            <a href="#" class="group-hover:text-lightBlue300 transition ease-in-out">Support</a>
             <div
               class="bg-lightBlue h-1 w-full bottom-0 absolute opacity-0 group-hover:opacity-100 transition ease-in-out"
             ></div>
           </li>
           <li class="flex relative h-full place-items-center mx-3 group">
-            <a href="#">Pricing</a>
+            <a href="#" class="group-hover:text-lightBlue300 transition ease-in-out">Pricing</a>
             <div
               class="bg-lightBlue h-1 w-full bottom-0 absolute opacity-0 group-hover:opacity-100 transition ease-in-out"
             ></div>
@@ -63,14 +64,25 @@
             <div class="flex text-lightBlue300 bg-white font-mullish border rounded-[3px] h-10 w-24 place-items-center justify-center font-bold cursor-pointer group hover:text-lightBlue500">
                 Sign up
                 <img src="./image/arrow.svg" alt="" class="h-4 ml-1 hidden group-hover:inline-block transition ease-in-out duration-200">
-            </div>
-             <!-- signup buttion section  stars -->
+            </div>00tion section  stars -->
             
 
         </div>
       </header>
       <!-- header section ends here  -->
       <!-- -------------------hero section start------------------------- -->
+       <section class="hero h-4/5 flex justify-center items-center">
+        <div class="h-4/5 w-9/12  flex gap-5 justify-around p-4">
+          <div class  ="w-2/5 flex flex-col text-white p-7 gap-y-8">
+            <h1 class="font-mullish text-4xl font-extrabold text-left leading-snug text text-border">Place your Finince, <br>grow your bussness</h1>
+            <div class="h-2 w-7 bg-grayText"></div>
+            <p class="w-4/5 font-mullish text-lg opacity-75">Accept payment from ciustomer.Automate payout the vendors & Employees. Never run out of working capital.</p>
+            <div class="h-11 w-28 bg-lightBlue500 rounded text-white flex justify-center items-center font-semibold hover: opacity-80 hover:opacity-100 transition ease-in-out duration-200 ">Sign up</div>
+          </div>
+        <img src="./image/hero-illustration.jpg" alt="" class="w-3/5">
+        </div>
+       </section>
+       
        
 
     </div>
